@@ -1,0 +1,123 @@
+/* =================
+  WRITE YOUR CSS HERE.
+  Check the ⌄ for help with formatting and validating your code.
+  You must write some CSS to complete this challenge.
+   ===================
+*/
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+/* don't edit this */
+.jest-lite-report__status--pass {
+  background: var(--color-pass);
+}
+.jest-lite-report__errors { display:none }
+
+
+* {
+  font-family: tahoma;
+  font-weight: 300;
+  color: #642C2C;
+}
+
+h1 {
+  font-family: italic;
+  text-align: center;
+  font-size: 2em;
+  margin: autol;
+  font-weight: 1000;
+  
+}
+
+h2 {
+  font-family: italic;
+  font-size: 1em;
+  font-weight: 1000;
+  text-align: center;
+  
+}
+
+p {
+  font-family: tahoma;
+  text-align: center;
+  text-indent: 50px;
+  font-size: 0.9em;
+  margin: 1em;
+}
+
+body {
+  background: url(https://redro.pl/blog/wp-content/uploads/2018/02/Nowoczes%CC%81nie-zaaranz%CC%87owany-ka%CC%A8cik-do-pracy.jpg);
+  background-repeat: no-repeat;
+  height: auto;
+  width: 100%;
+  background-size: 1850px 1350px;
+  margin: auto;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3em;
+  margin: 1em auto;
+  border: 1px solid #cccccc;
+  background-color: #F7F7F2;
+  max-width: 40em;
+  border-radius: 4em;
+  height: 100%;
+}
+
+
+.topnav {
+  color: #f2f2f2;
+  text-align: center;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+a {
+  border: solid black 1px;
+  background-color: #C8BFBF;
+  color: black;
+  float: left;
+  padding: 14px 26px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+a:hover {
+  background-color: #E4E4E4;
+  color: darkblue;
+}
+
+li {
+  list-style-type: circle;
+  font-size: 0.9em;
+  
+}
+
+h4 {
+  text-align: center;
+font-size: 0.9em;
+}
+
+label {
+  font-size: 0.9em;
+}
+iframe {
+  display: block;
+  margin: 0 auto;
+}
+#header-image {
+  max-width: 300px;
+  margin: 0 auto;
+  display: block;
+}
+
+
+
+@media screen and (max-width: 600px)

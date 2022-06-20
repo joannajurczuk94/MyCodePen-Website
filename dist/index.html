@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>CodePen - Improved Personal Home Page Template</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/jest-lite@1.0.0-alpha.4/dist/prettify.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- partial:index.partial.html -->
+    <!-- =================
+  WRITE YOUR HTML HERE
+
+You only need to write the HTML that goes inside the <body> tag. To add things to the <head>, click the ⚙️ 
+   ===================
+-->
+
+    <!--- All the tests are red! You have to make them green. 
+
+Q How do you make the tests pass?
+A Meet the requirements!
+
+Make the first test pass by adding a <header> </header>-->
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <title>Improved Personalised Page</title>
+      </head>
+
+      <body>
+        <main id="main">
+          <header class="c-site-header">
+            <img
+              id="header-image"
+              alt="headerImage"
+              src="https://s2.manifo.com/usr/3/367c/1f/manager/xjvp0ak.png"
+            />
+
+            <h1>Personal Home Page</h1>
+          </header>
+
+          <nav id="nav" class="nav-link" aria-label="Main Site Links.">
+            <a href="#aboutme">About Me </a>
+            <a href="#whytech">Why Tech?</a>
+            <a href="#hobbies">Hobbies</a>
+          </nav>
+
+          <div id="personal-info">
+            <div id="aboutme">
+              <h2>About Me</h2>
+              <p>
+                My name is Joanna. I am 27 years old and I am from Poland. I
+                have master degree in Civil Engineering and currently work as an
+                Architect. I am highly self-motivated, focused and innovative
+                person with experience in engineering design. I have a passion
+                for learning and developing new and existing skills. I love
+                creating new things and I really enjoy solving problems.
+              </p>
+            </div>
+            <div id="whytech">
+              <h2>Why Tech?</h2>
+              <p>
+                I would like to start a career as a web developer because of the
+                many advantages. Web development can gives me the opportunity to
+                express myself creatively on the internet. I also love problem
+                solving and that is something technology requires.
+              </p>
+              <p>
+                There is a huge demand for technology right now and you could
+                choose a company that really suits your needs. If you are good
+                enough you can have a good income.
+              </p>
+              <p>
+                Next advantage is that you can work from anywhere. Of course not
+                all jobs are remote, but I am pretty sure there are many
+                companies that accept this. This is wonderful that you can have
+                freedom to work wherever you want from.
+              </p>
+            </div>
+            <div id="hobbies">
+              <h3>My Hobbies:</h3>
+              <ul>
+                <li>Desigining</li>
+                <li>Maths</li>
+                <li>Drawings</li>
+                <li>Reading Books</li>
+                <li>Travelling</li>
+                <li>Sport & Fitness</li>
+              </ul>
+            </div>
+            <h4>You can see one of my favourite trainings below!</h4>
+
+            <iframe
+              width="320"
+              height="240"
+              src="https://www.youtube.com/embed/ml6cT4AZdqI"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <form id="form">
+            <p style="text-indent: 50px">Tell me the best date to meet me</p>
+            <label for="pickdate">Preffered Date:</label>
+            <input type="date" id="pickdate" name="date" />
+            <input id="submit" type="submit" name="submit" value="Submit" />
+          </form>
+
+          <form action="https://www.freecodecamp.com/email-submit">
+            <p style="text-indent: 50px">Type Your Email Address</p>
+            <label for="email">Email:</label>
+            <input
+              type="text"
+              id="email"
+              name="email"
+              class="form-control"
+              placeholder="Enter Your E-mail"
+              pattern="/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/"
+              required
+            />
+            <input type="submit" name="Submit" value="Submit" />
+          </form>
+
+          <footer class="c-site-footer">
+            <p style="text-indent: 70px">
+              Posted by: Joanna on
+              <time datetime="2021-12-12">December 12<sup>th</sup></time>
+            </p>
+          </footer>
+        </main>
+      </body>
+    </html>
+
+    <!-- Your test console.
+Don't delete!-->
+    <aside
+      id="tests"
+      aria-label="Test Readout."
+      aria-live="polite"
+      style="overflow: auto"
+    ></aside>
+    <!-- partial -->
+    <script src="https://unpkg.com/jest-lite@1.0.0-alpha.4/dist/core.js"></script>
+    <script src="https://unpkg.com/jest-lite@1.0.0-alpha.4/dist/prettify.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
